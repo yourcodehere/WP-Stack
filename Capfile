@@ -8,7 +8,7 @@ require 'capistrano/deploy'
 Dir.glob('lib/capistrano/tasks/*.cap').each { |r| import r }
 
 # Load Rudy fileLoad utility
-load 'lib/misc'
+# load 'lib/misc.rb'
 
 # Not using from here down from original Capfile
 
